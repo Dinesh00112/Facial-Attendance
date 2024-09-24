@@ -1,3 +1,4 @@
+# !!!PLEASE READ THIS BEFORE YOU PROCEED!!!
 
 # Facial Attendance System using face_recognition pre-trained model.
 
@@ -42,7 +43,10 @@ To deploy this project run main.py file
 ```bash
   project_file_location_directory\python main.py
 ```
-### *Note- Make sure that you have added your visual data into the "AttendancePics" Folder. Else the program doesn't matches any of the faces.*
+### *Note- Make sure that you have created and added your visual data into a folder named "AttendancePics". Else the program doesn't matches any of the faces. If you want to change or use any other folder instead of AttendancePics. Then replace your folder name with AttendancePics which is in the 7th line of the code.*
+```bash
+  path='AttendancePics' #replace AttendancePics with your folder name.
+```
 
 ## Screenshots
 
